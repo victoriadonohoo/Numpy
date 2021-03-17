@@ -1,6 +1,6 @@
 import numpy as np 
 import random 
-'''
+
 integers = np.array([1,2,3])
 
 print(type(integers))
@@ -99,7 +99,7 @@ array4 = np.arange(1, 100001).reshape(100, 1000)
 
 print(array4)
 
-'''
+
 
 numbers = np.arange(1, 6)
 

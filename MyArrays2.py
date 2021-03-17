@@ -1,6 +1,6 @@
 import numpy as np 
 
-'''
+
 # create a 4 dimensional array of grades 
 
 # each row represents a student 
@@ -75,11 +75,12 @@ print(e)
 f = grades[:, [0,2]]
 print(f)
 
-
+'''
 Use numpy random number generator to create an array of twelve random grades 
 in the range 60 - 100, then reshape the result into a 3 x 4 array. 
 Calculate the average of all the grades, the average of the grades for each test
 and the averages of the grades for each student. 
+'''
 
 grades = np.random.randint(60, 101, 12).reshape(3, 4)
 print(grades)
@@ -126,7 +127,7 @@ numbers[1] *= 10
 print(numbers)
 print(numbers2)
 
-
+'''
 The array methods reshape and resize both enable you to change an array's dimensions. 
 Method reshape returns a view (shallow copy) of the original array with the new dimensions.
 It does not modify the original but resize does. 
@@ -134,7 +135,7 @@ It does not modify the original but resize does.
 
 grades = np.array([[87, 96, 70], [100, 87, 90]])
 
-'''
+
 a = grades.reshape(1, 6)
 
 print(grades)
@@ -165,7 +166,7 @@ print(grades)
 t = grades.T
 print(t)
 print(grades)
-'''
+
 
 grades = np.array([[87, 96, 70], [100, 87, 90]])
 
